@@ -1,0 +1,835 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1716971742486262, "dur": 1033372, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716971742486504, "dur": 24919, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716971742511425, "dur": 66462, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716971742577888, "dur": 626978, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716971743204868, "dur": 301922, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716971743506794, "dur": 12838, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716971743520867, "dur": 16, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1716971742549563, "dur":1914, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742551485, "dur":183, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1716971742551709, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1716971742551733, "dur":406, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1716971742552163, "dur":605, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742552768, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742553826, "dur":164, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742553990, "dur":70, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554060, "dur":58, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554118, "dur":34, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554152, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554155, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554159, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554161, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554167, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554168, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554172, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554173, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554178, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554179, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554183, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554184, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554188, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554189, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554193, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554194, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554198, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554200, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554203, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554204, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554209, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554209, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742554226, "dur":2209, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1716971742552402, "dur":387, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971742552789, "dur":1057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971742552675, "dur":187, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971742552862, "dur":989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971742552537, "dur":297, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971742552834, "dur":1009, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971742552484, "dur":326, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971742552810, "dur":1035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971742552613, "dur":238, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971742552851, "dur":990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971742552763, "dur":7, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971742552770, "dur":1044, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971742552852, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971742552853, "dur":977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971742552937, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971742552938, "dur":900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971742553022, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971742553023, "dur":817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971742553122, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971742553123, "dur":701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971742553202, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971742553202, "dur":625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971742553287, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971742553287, "dur":542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971742558011, "dur":482, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1716971743521115, "dur": 505, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1716971743019989, "dur": 163254, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1716971743020956, "dur": 41881, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1716971743157503, "dur": 15159, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1716971743172665, "dur": 10566, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1716971743173321, "dur": 8945, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1716971743187759, "dur": 1173, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1716971743186992, "dur": 1971, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716971743521781, "dur": 332, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1716971743249276, "dur":2214, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743251500, "dur":1060, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1716971743252594, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1716971743252618, "dur":397, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1716971743253044, "dur":594, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743253638, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743486640, "dur":247, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743486887, "dur":87, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743486974, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743486980, "dur":37, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487017, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487021, "dur":41, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487062, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487067, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487083, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487085, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487091, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487093, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487100, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487102, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487107, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487108, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487114, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487116, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487121, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487123, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487128, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487130, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487135, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487137, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487143, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487166, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743487198, "dur":4421, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1716971743253644, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743253644, "dur":6975, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743260631, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1716971743260635, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743260780, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1716971743260782, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743260872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743262365, "dur":4547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1716971743266917, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1716971743267074, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743267129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743267659, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1716971743270056, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1716971743270222, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743270302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743270313, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1716971743272456, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1716971743272599, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743272631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743272642, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1716971743274686, "dur":18844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743293531, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743293579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743293653, "dur":7245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743300967, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743301197, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743301282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743301291, "dur":4365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743305705, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743305889, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743305999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743306009, "dur":4587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743310665, "dur":5960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743316626, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743316830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743316843, "dur":3186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743320128, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743320313, "dur":237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743320559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743320570, "dur":3944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743324558, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743324826, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743324962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743324972, "dur":4780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743329804, "dur":5650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743335455, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743335500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743335508, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743337817, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743337979, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743338024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743338036, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743339440, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743339636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743339647, "dur":4437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743344154, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743344427, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743344544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743344554, "dur":5781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743350384, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743350553, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743350648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743350659, "dur":4868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743355586, "dur":773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743356360, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743356454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743356467, "dur":5711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743362241, "dur":556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743362798, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743362888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743362940, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743366119, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743366491, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743366632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743366644, "dur":2922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743369617, "dur":1344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743370962, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743371080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743371091, "dur":4639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743375781, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743375963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743375969, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716971743377746, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1716971743377797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743377870, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1716971743379566, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1716971743379642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716971743379653, "dur":43611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1716971743423310, "dur":63338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743253524, "dur":147, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743253671, "dur":6986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743260658, "dur":839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1716971743261498, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743261595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743277555, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1716971743279962, "dur":7215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743287178, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743287288, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743287303, "dur":3769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743291120, "dur":6019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743297140, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743297249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743297264, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743299126, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743299364, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743299442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743299454, "dur":4212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743303710, "dur":5679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743309390, "dur":497, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743309897, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743309912, "dur":3684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743313662, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743313871, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743313919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743313929, "dur":3501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743317483, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743317763, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743318018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743318029, "dur":4543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743322624, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743322928, "dur":365, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743323299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743323308, "dur":5407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743328893, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743329071, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743329190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743329203, "dur":3157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743332411, "dur":5987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743338398, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743338447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743338456, "dur":2842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743341372, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743341821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743341831, "dur":4877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743346756, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743347056, "dur":341, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743347451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743347461, "dur":6922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743354439, "dur":543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743354982, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743355094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743355103, "dur":5668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743360824, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743361043, "dur":388, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743361440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743361453, "dur":3774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743365277, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743365562, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743365676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743365689, "dur":9041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743375366, "dur":13699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743389070, "dur":767, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743390560, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716971743390585, "dur":12221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716971743402858, "dur":83774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743253664, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743253664, "dur":7118, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743260783, "dur":482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1716971743261266, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743261411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743276329, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1716971743278660, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743278899, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743278955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743279418, "dur":2076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743281545, "dur":6551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743288096, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743288287, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743288300, "dur":2582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743290935, "dur":8754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743299689, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743299946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743300047, "dur":3244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743303340, "dur":1640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743304981, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743305120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743305133, "dur":5261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743310449, "dur":5741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743316192, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743316320, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743316337, "dur":3350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743319738, "dur":5343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743325082, "dur":518, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743325611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743325626, "dur":5481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743331153, "dur":7092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743338257, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743338446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743338456, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743341881, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743342076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743342084, "dur":4915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743347040, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743347268, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743347373, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743347385, "dur":5325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743352770, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743353377, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743353467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743353480, "dur":7072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743360616, "dur":6468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743367085, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743367348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743367359, "dur":4608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743372025, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743372697, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743372791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743372799, "dur":4411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743377263, "dur":24145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743401409, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743401511, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716971743402188, "dur":14326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716971743416646, "dur":69997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743253950, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743253951, "dur":6670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743260631, "dur":54360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1716971743314992, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743315070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743315636, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1716971743317943, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716971743318252, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743318364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743318373, "dur":5073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716971743323492, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716971743323783, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743323889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743323901, "dur":4552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716971743328513, "dur":6070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716971743334585, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743334666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743334678, "dur":4701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716971743339433, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716971743339699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743339705, "dur":4777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716971743344541, "dur":507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716971743345057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743345067, "dur":6249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716971743351374, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716971743351535, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743351644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743351652, "dur":7368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716971743359081, "dur":125306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716971743484388, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743484509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716971743484521, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716971743486581, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1716971743486583, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743253611, "dur":71, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743253683, "dur":6945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743260633, "dur":15641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1716971743276276, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743276361, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743276412, "dur":4191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1716971743280853, "dur":7081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743287935, "dur":651, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743288594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743288604, "dur":4287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743292956, "dur":7947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743300904, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743301140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743301151, "dur":4924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743306143, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743306497, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743306628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743306637, "dur":5235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743311934, "dur":5276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743317211, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743317295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743317306, "dur":5617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743322988, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743323204, "dur":723, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743323934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743323941, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743326954, "dur":5610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743332565, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743332617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743332627, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743334876, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743335174, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743335220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743335232, "dur":3179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743338465, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743338612, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743338656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743338663, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743342079, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743342342, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743342417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743342426, "dur":5497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743347977, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743348173, "dur":366, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743348548, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743348562, "dur":8875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743357588, "dur":79239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743436828, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743436919, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716971743436930, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716971743438457, "dur":48197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743253431, "dur":228, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743253659, "dur":6966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743260632, "dur":728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1716971743261360, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743261487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743278163, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1716971743280388, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743280610, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743280976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743281020, "dur":3656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743284738, "dur":5557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743290296, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743290539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743290549, "dur":2879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743293484, "dur":6980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743300465, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743300800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743300828, "dur":4245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743305225, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743305450, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743305571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743305580, "dur":5051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743310680, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743310849, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743310952, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743310964, "dur":2879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743313890, "dur":5548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743319439, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743319544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743319557, "dur":4577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743324196, "dur":6066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743330263, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743330407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743330415, "dur":2546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743333017, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743333263, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743333525, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743333542, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743335427, "dur":5650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743341079, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743341194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743341207, "dur":4472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743345723, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743345935, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743346057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743346068, "dur":5270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743351385, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743351528, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743351647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743351655, "dur":5322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743357047, "dur":481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743357529, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743357779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743357795, "dur":5625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743363486, "dur":969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743364456, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743364619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743364626, "dur":2904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743367589, "dur":2659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743370248, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743370376, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743370389, "dur":5848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743376284, "dur":1819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743378104, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743378209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743378575, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716971743380123, "dur":44889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1716971743425022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716971743425032, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1716971743426327, "dur":60322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743253757, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743253757, "dur":6882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743260640, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1716971743260992, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743261092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743263701, "dur":3274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1716971743267026, "dur":16203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1716971743283232, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743283343, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743283364, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1716971743284799, "dur":6105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743290905, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743290983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743290993, "dur":3490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743294543, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743294726, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743294776, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743294789, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743296746, "dur":6889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743303636, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743303727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743303737, "dur":4561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743308366, "dur":5850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743314216, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743314284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743314293, "dur":4025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743318378, "dur":6706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743325085, "dur":531, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743325624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743325672, "dur":5045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743330780, "dur":1321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743332102, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743332208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743332231, "dur":3770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743336056, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743336263, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743336432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743336444, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743338474, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743338657, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743338740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743338747, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743342141, "dur":530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743342680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743342691, "dur":6293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743349041, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743349251, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743349333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743349343, "dur":5071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743354470, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743354954, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743354969, "dur":4929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743359945, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743360213, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743360309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743360320, "dur":3625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743363998, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743364229, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743364396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743364407, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743367240, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743367458, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743367603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743367614, "dur":3215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743370888, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743371185, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743371268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743371274, "dur":4204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743375523, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743375848, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743375892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743375902, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716971743377646, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1716971743377788, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743377846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743378286, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1716971743379588, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1716971743379654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743379660, "dur":10229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1716971743389949, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1716971743389999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743390013, "dur":4076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1716971743394178, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1716971743394277, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743394314, "dur":4456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1716971743398827, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1716971743398915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743398928, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1716971743400743, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1716971743400887, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743400940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716971743400951, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1716971743402354, "dur":84286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743253855, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743253856, "dur":6791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743260648, "dur":586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1716971743261235, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743261382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743264568, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1716971743267533, "dur":19572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1716971743287107, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743287296, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743287312, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1716971743290103, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743290344, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743290596, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743290606, "dur":3434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743294147, "dur":11143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743305290, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743305344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743305350, "dur":4229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743309631, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743309819, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743309907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743309913, "dur":4175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743314561, "dur":5605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743320167, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743320571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743320583, "dur":4662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743325597, "dur":5638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743331237, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743331405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743331418, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743333993, "dur":5741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743339734, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743339819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743339831, "dur":4659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743344546, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743344728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743344761, "dur":6474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743351303, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743351501, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743351586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743351599, "dur":5093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743356768, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743356947, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743357034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743357042, "dur":10174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743367270, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743367859, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743368112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743368125, "dur":3554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743371731, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743372454, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743372692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743372704, "dur":3413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743376178, "dur":54158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743430346, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716971743430359, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716971743432027, "dur":54633, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743254037, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743254037, "dur":6613, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743260652, "dur":552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1716971743261205, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743261336, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743264491, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1716971743267038, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1716971743267422, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743267468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743267688, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1716971743270180, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1716971743270319, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743270361, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743270371, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1716971743272531, "dur":2558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743275091, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743275173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743275528, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743278020, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1716971743278231, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743278324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743278706, "dur":9980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1716971743288745, "dur":8833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743297580, "dur":2275, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743299869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743299884, "dur":3531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743303466, "dur":544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743304011, "dur":459, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743304481, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743304633, "dur":3445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743308137, "dur":6469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743314607, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743314782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743314812, "dur":4803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743319679, "dur":5411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743325090, "dur":512, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743325611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743325626, "dur":6076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743331961, "dur":9912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743341874, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743341953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743341959, "dur":5024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743347034, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743347176, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743347442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743347450, "dur":5266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743352779, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743352936, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743353026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743353038, "dur":5016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743358112, "dur":103170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743461283, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743461355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716971743461364, "dur":2633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716971743464049, "dur":22590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743254135, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743254135, "dur":6518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743260665, "dur":12699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1716971743273366, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743273451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743273599, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1716971743275510, "dur":3598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1716971743279109, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743279243, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743279542, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743279627, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743279750, "dur":4093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743283900, "dur":7388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743291289, "dur":483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743291789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743291803, "dur":2691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743294546, "dur":6721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743301268, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743301353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743301360, "dur":4794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743306202, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743306421, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743306537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743306549, "dur":6040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743312670, "dur":840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743313512, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743313578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743313592, "dur":3391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743317152, "dur":5724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743322877, "dur":301, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743323296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743323308, "dur":3384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743326793, "dur":7181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743333975, "dur":320, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743334358, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743334376, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743336415, "dur":5458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743341873, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743341964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743341972, "dur":6568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743348649, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743348883, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743348967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743348979, "dur":8116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743357210, "dur":89325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743446537, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743446645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716971743446655, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716971743448170, "dur":38497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743254194, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743254194, "dur":6449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743260645, "dur":14369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1716971743275016, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743275119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743275145, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1716971743276558, "dur":61856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project.exe" }}
+,{ "pid":12345, "tid":11, "ts":1716971743338415, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743338472, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716971743338715, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743338721, "dur":4769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716971743343545, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716971743343784, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743343861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743343870, "dur":5921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716971743349904, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716971743350112, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743350216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743350228, "dur":5510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716971743355785, "dur":944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716971743356736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743356745, "dur":6945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716971743363758, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716971743364006, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743364071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743364081, "dur":3677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716971743367807, "dur":2243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716971743370051, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743370266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743370280, "dur":9742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716971743380066, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1716971743380231, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743380279, "dur":2632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1716971743382975, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1716971743383034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743383051, "dur":9566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1716971743392673, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1716971743392734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743392749, "dur":4355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1716971743397177, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1716971743397241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716971743397289, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1716971743401001, "dur":85634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743254268, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743254268, "dur":6398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743260667, "dur":12789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1716971743273457, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743273501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743273615, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1716971743275436, "dur":43931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743319368, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743319545, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743319870, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743319978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743319987, "dur":4268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743324335, "dur":5709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743330044, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743330268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743330281, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743333053, "dur":5892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743338945, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743339057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743339065, "dur":3585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743342702, "dur":623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743343335, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743343348, "dur":5652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743349042, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743349231, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743349334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743349343, "dur":5739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743355151, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743355336, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743355598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743355609, "dur":5479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743361141, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743361469, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743361530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743361542, "dur":3397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743364996, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743365262, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743365397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743365411, "dur":3262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743368735, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743369152, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743369206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743369217, "dur":3631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743372907, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743373154, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743373494, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743373514, "dur":3821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716971743377394, "dur":33764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":12, "ts":1716971743411162, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743411331, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716971743411939, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/thege/Desktop/3 INFO/APK PLANTES/My project_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":12, "ts":1716971743413433, "dur":73204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716971743494546, "dur":3145, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1716971743522238, "dur": 10968, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716971743520847, "dur": 12417, "ph": "X", "name": "Write chrome-trace events", "args": {} },
