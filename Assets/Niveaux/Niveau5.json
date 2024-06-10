@@ -1,0 +1,11 @@
+{
+"numero": 5,
+"rangePlanteMin": 0,
+"rangePlanteMax": 3,
+"nbPlantes": {1,0,0},
+"lumiere": false,
+"eau": false,
+"qteEau": 0.1f,
+"nomNiveau": "Plusieurs types de plantes",
+"conditionNiveau": "this.santeLumiere() && this.santeEau()"
+}
